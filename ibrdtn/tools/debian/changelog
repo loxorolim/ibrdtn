@@ -1,6 +1,11 @@
 ibrdtn-tools (0.10.0) UNRELEASED; urgency=low
 
-  * TODO
+  * dtnstream improved with flow control and priorities
+  * Use new socket abstraction layer of ibrcommon 0.10
+  * Added tracking path option (-p) to dtntracepath
+  * Added -s option to accept signed bundles only to dtntrigger
+  * Overall improved error handling and fixes
+  * Added daemon support to dtntunnel and show throughput on console
 
  -- Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>  Mon, 02 Jul 2013 10:00:00 +0200
 
